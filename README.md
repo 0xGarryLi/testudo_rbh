@@ -11,7 +11,7 @@ Pick a floor, pay a premium, and get paid automatically if the price closes belo
 
 [![Website](https://img.shields.io/badge/testudotrade.com-0B1016?style=for-the-badge&logo=googlechrome&logoColor=3DDC97)](https://testudotrade.com)
 [![X](https://img.shields.io/badge/@Testudo__rbh-0B1016?style=for-the-badge&logo=x&logoColor=white)](https://x.com/Testudo_rbh)
-[![Token](https://img.shields.io/badge/$TSTD-Robinhood_Chain-3DDC97?style=for-the-badge&labelColor=0B1016)](https://testudotrade.com/token.html)
+[![Token](https://img.shields.io/badge/$TSTD-0xcf3732…d856c-3DDC97?style=for-the-badge&labelColor=0B1016)](https://robinhoodchain.blockscout.com/token/0xcf37328fb6742ed9e9ffb56081c9078ba45d856c)
 
 ![Python](https://img.shields.io/badge/python-3.11+-1AA6B7?style=flat-square&labelColor=0B1016)
 ![Dependencies](https://img.shields.io/badge/dependencies-none-3DDC97?style=flat-square&labelColor=0B1016)
@@ -33,7 +33,17 @@ Testudo sells a **Scutum**, a shield on a stock position. You keep your shares. 
 This repository is the **reference model** behind the quote demo on [testudotrade.com](https://testudotrade.com): pricing, payouts, the pool and holder ranks, in plain Python with tests that check it against the numbers published on the site.
 
 > [!NOTE]
-> Shields are not on sale yet. This is a model, not a deployed contract or an offer to insure a position.
+> $TSTD is live on Pons. Shields are not on sale yet. This repository is the pricing model, not an offer to insure a position.
+
+## $TSTD
+
+| | |
+| --- | --- |
+| Contract | [`0xcf37328fb6742ed9e9ffb56081c9078ba45d856c`](https://robinhoodchain.blockscout.com/token/0xcf37328fb6742ed9e9ffb56081c9078ba45d856c) |
+| Chain | Robinhood Chain · 4663 |
+| Supply | Fixed at launch, no mint |
+| Tax | None |
+| Liquidity | Locked by Pons |
 
 ---
 
@@ -197,7 +207,7 @@ tests/              23 tests pinned to the numbers on the site
 
 | Phase | | Status | What ships |
 | :---: | --- | --- | --- |
-| **0** | **Launch** | Now | $TSTD on Pons, the website, the quote demo, X and this repository |
+| **0** | **Launch** | Live | $TSTD on Pons, the website, the quote demo, X and this repository |
 | **I** | **Stock Shield** | Next | Shields on five stocks, Legion pool v1 and oracle payouts, on a testnet first |
 | **II** | **Weekend & Basket** | Later | Gap cover, baskets, holder tiers and first-loss staking |
 | **III** | **Legion** | Later | Open pools per stock, Senate votes and an SDK for apps |
@@ -206,7 +216,7 @@ tests/              23 tests pinned to the numbers on the site
 
 <div align="center">
 
-**[testudotrade.com](https://testudotrade.com)** · **[@Testudo_rbh](https://x.com/Testudo_rbh)**
+**[testudotrade.com](https://testudotrade.com)** · **[@Testudo_rbh](https://x.com/Testudo_rbh)** · **[`0xcf3732…d856c`](https://robinhoodchain.blockscout.com/token/0xcf37328fb6742ed9e9ffb56081c9078ba45d856c)**
 
 <sub>MIT licensed. $TSTD is a community token with no promise of profit. Testudo policies are smart-contract agreements, not regulated insurance. Nothing here is financial advice.</sub>
 
